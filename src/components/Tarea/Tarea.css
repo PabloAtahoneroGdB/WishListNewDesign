@@ -1,0 +1,51 @@
+.tag{
+    font-weight: 100;
+}
+.paracompletar{
+    cursor: pointer;
+}
+.completada{
+    text-decoration: line-through;
+    text-decoration-thickness: 5px;
+}
+.tarea{
+    width: 50%;
+    margin: 10px auto;
+    padding: 2em;
+    font-size: larger;
+    color: #0b2041;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border: 1px solid;
+    border-color: #0b2041;
+    border-radius: 7px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  
+  }
+.removeBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.tag.completada{
+    text-decoration: line-through;
+}
+.tarea.completadaFondo{
+    background-color: rgb(117, 187, 117);
+}
+
+.tarea p{
+    margin-bottom: 0;
+}
+.cuidado{
+    background-color: #FFFF00;
+}
+.proximoAlFin{
+    background-color: orange;
+}
+.seFodeu{background-color: red;}
